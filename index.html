@@ -1,0 +1,43 @@
+<html>
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+
+<head>
+  <title>Twitch Viewer</title>
+
+</head>
+
+<body>
+  <section>
+
+    <div id="topTen">
+      <h1>Twitch Streamers<br>Top Ten Followers</h1>
+      <ul class="nav">
+        <li><button class="btn btn-primary" rel="online">Online</li>
+          <li><button class="btn btn-primary" rel="offline">Offline</li>
+          <li><button class="btn btn-primary" rel="all">All</li></button>
+      </ul>
+      <div id="wrapper">
+        <div id="online" class="selected"> 
+        </div>
+        <div id="offline" class="selected">
+        </div>
+      </div>
+    </div>
+  
+  </section>
+  <div class="container">
+    <form id="subSearch">
+      <input type="text" id="search" placeholder="&#xF002; Search for streams" style="font-family:Arial, FontAwesome">
+
+      <input id="subSearch" type="submit" style="display:none;">
+    </form>
+
+  </div>
+  <div id="resBox">
+    <div id="results"> </div>
+  </div>
+</body>
+
+
+</html>
